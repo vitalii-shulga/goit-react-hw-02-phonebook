@@ -23,7 +23,7 @@ export class ContactForm extends React.Component {
     this.setState({ name: '', number: '' });
   };
 
-  PropTypes = {
+  static propTypes = {
     onSubmit: PropTypes.func.isRequired,
   };
 
